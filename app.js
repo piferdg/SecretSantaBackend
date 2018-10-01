@@ -14,7 +14,7 @@ app.use(family)
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
-  const err = new Error("Not Found. Be sure to append /XYZ!");
+  const err = new Error("Not Found. Be sure to append /family!");
   err.status = 404;
   next(err);
 });
